@@ -1,0 +1,13 @@
+GET http://localhost:5000/
+
+###
+GET http://localhost:5000/isbn/244
+
+###
+GET http://localhost:5000/author/unknown
+
+###
+GET http://localhost:5000/title/vasdf
+
+###
+GET http://localhost:5000/review/3
