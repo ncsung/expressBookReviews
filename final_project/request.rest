@@ -1,16 +1,16 @@
 GET http://localhost:5000/
 
 ###
-GET http://localhost:5000/isbn/2
+GET http://localhost:5000/isbn/9
 
 ###
-GET http://localhost:5000/author/Njál'sSaga
+GET http://localhost:5000/author/Unknown
 
 ###
-GET http://localhost:5000/title/Njál's Saga
+GET http://localhost:5000/title/TheEpicOfGilgamesh
 
 ###
-GET http://localhost:5000/review/7
+GET http://localhost:5000/review/2
 
 ###
 POST http://localhost:5000/register
@@ -61,13 +61,8 @@ Content-Type: application/json
 }
 
 ###
-PUT http://localhost:5000/customer/auth/review/2?review=wa2I!
-Content-Type: application/json
+PUT http://localhost:5000/customer/auth/review/2?review=wow!
 
-{
-    "id": 1,
-    "name": "Data structures and algorithm" 
-}
 
 
 ###
